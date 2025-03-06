@@ -4,6 +4,7 @@ A simple Rust-based tool to decrypt text encoded with ROT13 and Base64.
 
 ## 🚀 Features
 - **Automatic Decryption:** Detects and reverses ROT13 + Base64 encoding.
+- **User Input:** Asks for an encrypted key and decrypts it.
 - **Error Handling:** Gracefully handles incorrect inputs.
 - **Fast & Lightweight:** Runs efficiently with minimal dependencies.
 
@@ -23,26 +24,30 @@ cargo run
 ```
 
 ## 📜 Usage
-Modify `src/main.rs` to include your encrypted text and run:
+Run the program and enter your encrypted text:
 ```sh
 cargo run
 ```
 
-Alternatively, modify the code to take user input dynamically.
+It will prompt you to enter the encrypted key and display the decrypted result.
 
 ## 📖 Example
-### **Input:**
+### **Execution:**
+```sh
+cargo run
 ```
-M3I6r2IbMzq9
+### **Program Output:**
 ```
-### **Decryption Process:**
-1. Apply ROT13
-2. Decode Base64
-3. Apply ROT13 again
+███╗   ██╗ ██████╗  ██████╗ ██████╗   A Rust-based Decryptor
+████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: v1.0.0
+██╔██╗ ██║██║   ██║██║   ██║██████╔╝  Author: 4nuxd [Noob]
+██║╚██╗██║██║   ██║██║   ██║██╔══██╗  Note: Every Action Has a Consequence
+██║ ╚████║╚██████╔╝╚██████╔╝██████╔╝  GitHub: https://github.com/4nuxd/
+╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝   Bored..? : http://bit.ly/3MTMHyU
+___________________________________________________________________________
 
-### **Output:**
-```
-Decrypted Text: [Your Plaintext Here]
+Enter the encrypted text: {Encrypted_Key}
+Decrypted Text: {Decrypted_Key}
 ```
 
 ## 🛠 Dependencies
