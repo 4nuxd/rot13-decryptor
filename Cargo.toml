@@ -1,6 +1,6 @@
 [package]
 name = "rot-decryptor"
-author = "4nuxd"
+authors = ["4nuxd"]
 version = "0.1.0"
 edition = "2025"
 
