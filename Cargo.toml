@@ -1,0 +1,9 @@
+[package]
+name = "rot-decryptor"
+author = "4nuxd"
+version = "0.1.0"
+edition = "2025"
+
+[dependencies]
+base64 = "0.21"
+rot13 = "0.1"
