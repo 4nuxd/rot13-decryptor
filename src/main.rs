@@ -5,7 +5,7 @@ use std::io::{self, Write};
 fn print_banner() {
     let banner = r#"
 ███╗   ██╗ ██████╗  ██████╗ ██████╗   A Rust-based Decryptor
-████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: v1.0.0
+████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: 0.1.0
 ██╔██╗ ██║██║   ██║██║   ██║██████╔╝  Author: 4nuxd [Noob]
 ██║╚██╗██║██║   ██║██║   ██║██╔══██╗  Note: Every Action Has a Consequence
 ██║ ╚████║╚██████╔╝╚██████╔╝██████╔╝  GitHub: https://github.com/4nuxd/
